@@ -1,5 +1,8 @@
 $(document).ready(function(){
-  $("select#beverage").click(function(){
-    console.log($("#beverage").val());
-  });
+  $('#gate-keeper').modal({backdrop: 'static', keyboard: false});
+
+
+  $("#gate-keeper").modal('hide');
+  $("#gate-keeper").effect("shake");
+
 });
